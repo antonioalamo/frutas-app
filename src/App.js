@@ -5,6 +5,17 @@ import './App.css';
 function App() {
   const [selectedFruit, setSelectedFruit] = useState(null);
 
+  const handleFruitClick = (fruit) => {
+    setSelectedFruit(fruit);
+    
+    // Crear utterance para la síntesis de voz
+    const utterance = new SpeechSynthesisUtterance(fruit.name);
+    // Configurar el idioma a español
+    utterance.lang = 'es-ES';
+    // Reproducir el nombre de la fruta
+    window.speechSynthesis.speak(utterance);
+  };
+
   return (
     <div className="app">
       <h1>Catálogo de Frutas</h1>
@@ -15,7 +26,7 @@ function App() {
             key={fruit.id}
             style={{ backgroundColor: fruit.color }}
             className="fruit-button"
-            onClick={() => setSelectedFruit(fruit)}
+            onClick={() => handleFruitClick(fruit)}
           >
             {fruit.name}
           </button>
@@ -37,4 +48,4 @@ function App() {
   );
 }
 
-export default App; 
+export default App;
