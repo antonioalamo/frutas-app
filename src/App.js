@@ -24,24 +24,32 @@ function App() {
     getSpanishVoice();
   }, []);
 
-  const handleFruitClick = (fruit) => {
-    setSelectedFruit(fruit);
-    
-    // Detener cualquier voz que esté reproduciéndose
+  const speak = (text) => {
     window.speechSynthesis.cancel();
-
-    const utterance = new SpeechSynthesisUtterance(fruit.name);
+    
+    const utterance = new SpeechSynthesisUtterance(text);
     
     if (spanishVoice) {
       utterance.voice = spanishVoice;
     }
     
-    utterance.lang = 'es-MX'; // Usando español de México como alternativa
-    utterance.rate = 0.3; // Velocidad ligeramente más lenta
-    utterance.pitch = 1; // Tono normal
-    utterance.volume = 1; // Volumen máximo
+    utterance.lang = 'es-MX';
+    utterance.rate = 0.3;
+    utterance.pitch = 1;
+    utterance.volume = 1;
     
     window.speechSynthesis.speak(utterance);
+  };
+
+  const handleFruitClick = (fruit) => {
+    setSelectedFruit(fruit);
+    speak(fruit.name);
+  };
+
+  const handleReadDescription = () => {
+    if (selectedFruit) {
+      speak(selectedFruit.description);
+    }
   };
 
   return (
@@ -70,6 +78,12 @@ function App() {
           />
           <h2>{selectedFruit.name}</h2>
           <p>{selectedFruit.description}</p>
+          <button 
+            onClick={handleReadDescription}
+            className="read-description-button"
+          >
+            Leer descripción
+          </button>
         </div>
       )}
     </div>
