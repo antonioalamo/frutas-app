@@ -16,7 +16,7 @@ export const dinosaurs = [
     diet: "Carnívoro",
     length: "2 metros",
     weight: "15 kg",
-    image: "/images/velociraptor.png",
+    image: "images/Velociraptor.png",
     description: "El Velociraptor era un dinosaurio ágil y veloz que cazaba en manada. A pesar de su tamaño relativamente pequeño, era un depredador muy efectivo."
   },
   {
@@ -26,7 +26,7 @@ export const dinosaurs = [
     diet: "Herbívoro",
     length: "27 metros",
     weight: "25 toneladas",
-    image: "/images/diplodocus.png",
+    image: "images/diplodocus.png",
     description: "El Diplodocus fue uno de los dinosaurios más largos que existieron. Con su largo cuello podía alcanzar las hojas más altas de los árboles."
   },
   {
@@ -36,7 +36,7 @@ export const dinosaurs = [
     diet: "Herbívoro",
     length: "9 metros",
     weight: "5 toneladas",
-    image: "/images/Stegosaurus.jpg",
+    image: "images/Stegosaurus.jpg",
     description: "El Stegosaurus es famoso por las placas óseas a lo largo de su espalda y los picos en su cola. Estas características le servían tanto para regular su temperatura como para defenderse."
   },
   {
@@ -46,7 +46,7 @@ export const dinosaurs = [
     diet: "Herbívoro",
     length: "8 metros",
     weight: "12 toneladas",
-    image: "/images/Triceratops.jpg",
+    image: "images/Triceratops.jpg",
     description: "El Triceratops tenía tres cuernos distintivos y un gran collar óseo que usaba para defenderse de depredadores y competir con otros de su especie."
   },
   {
@@ -56,7 +56,7 @@ export const dinosaurs = [
     diet: "Carnívoro",
     length: "1 metro",
     weight: "1 kg",
-    image: "/images/Pterodactilo.jpg",
+    image: "images/Pterodactilo.jpg",
     description: "El Pterodáctilo fue uno de los primeros reptiles voladores. Con sus alas membranosas y cuerpo ligero, dominaba los cielos del período Jurásico."
   }
 ]; 
