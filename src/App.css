@@ -42,8 +42,8 @@ h1 {
 }
 
 .fruit-image {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
   border-radius: 15px;
   margin-bottom: 1rem;
@@ -58,3 +58,18 @@ p {
   color: #666;
   line-height: 1.6;
 } 
+
+.read-description-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.read-description-button:hover {
+  background-color: #45a049;
+}

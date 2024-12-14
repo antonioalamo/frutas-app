@@ -6,13 +6,13 @@ export const fruits = [
     description: "Conocida como la 'reina de las frutas'. Dulce y cremosa, ideal para postres y helados.",
     color: "#90B44B"
   },
-  {
-    id: 2,
-    name: "Palta",
-    image: "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578",
-    description: "Fruto cremoso y nutritivo, infaltable en la mesa chilena. Perfecta para el desayuno o completos.",
-    color: "#568203"
-  },
+  // {
+  //   id: 2,
+  //   name: "Palta",
+  //   image: "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578",
+  //   description: "Fruto cremoso y nutritivo, infaltable en la mesa chilena. Perfecta para el desayuno o completos.",
+  //   color: "#568203"
+  // },
   {
     id: 3,
     name: "Lúcuma",
@@ -76,13 +76,13 @@ export const fruits = [
     description: "Dulce y jugosa, muy cultivada en el sur de Chile. Ideal para postres y compotas.",
     color: "#90EE90"
   },
-  {
-    id: 12,
-    name: "Membrillo",
-    image: "https://images.pexels.com/photos/4412924/pexels-photo-4412924.jpeg",
-    description: "Tradicional fruta chilena, principalmente usada para dulces y mermeladas.",
-    color: "#FFD700"
-  },
+  // {
+  //   id: 12,
+  //   name: "Membrillo",
+  //   image: "https://images.pexels.com/photos/4412924/pexels-photo-4412924.jpeg",
+  //   description: "Tradicional fruta chilena, principalmente usada para dulces y mermeladas.",
+  //   color: "#FFD700"
+  // },
   {
     id: 13,
     name: "Sandía",
@@ -109,7 +109,7 @@ export const fruits = [
     name: "Limón",
     image: "https://images.unsplash.com/photo-1590502593747-42a996133562",
     description: "Fundamental en la cocina chilena, usado en múltiples preparaciones.",
-    color: "#FFFF00"
+    color: "#FFD700"
   },
   {
     id: 17,
@@ -134,9 +134,17 @@ export const fruits = [
   },
   {
     id: 20,
-    name: "Tuna",
-    image: "https://images.pexels.com/photos/5945755/pexels-photo-5945755.jpeg",
+    name: "Piña",
+    image: "https://images.pexels.com/photos/4412924/pexels-photo-4412924.jpeg",
     description: "Fruta de cactus, dulce y refrescante. Típica del norte de Chile.",
     color: "#FF69B4"
   }
+  // ,
+  // {
+  //   id: 21,
+  //   name: "Tuna",
+  //   image: "https://images.pexels.com/photos/5945755/pexels-photo-5945755.jpeg",
+  //   description: "Fruta de cactus, dulce y refrescante. Típica del norte de Chile.",
+  //   color: "#FF69B4"
+  // }
 ]; 
