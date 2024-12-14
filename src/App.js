@@ -37,7 +37,7 @@ function App() {
     }
     
     utterance.lang = 'es-MX'; // Usando español de México como alternativa
-    utterance.rate = 0.9; // Velocidad ligeramente más lenta
+    utterance.rate = 0.3; // Velocidad ligeramente más lenta
     utterance.pitch = 1; // Tono normal
     utterance.volume = 1; // Volumen máximo
     
