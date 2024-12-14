@@ -2,7 +2,7 @@ export const fruits = [
   {
     id: 1,
     name: "Chirimoya",
-    image: "https://images.unsplash.com/photo-1613729789476-b7e3fb891b91",
+    image: "https://images.pexels.com/photos/8972581/pexels-photo-8972581.jpeg",
     description: "Conocida como la 'reina de las frutas'. Dulce y cremosa, ideal para postres y helados.",
     color: "#90B44B"
   },
@@ -16,7 +16,7 @@ export const fruits = [
   {
     id: 3,
     name: "Lúcuma",
-    image: "https://images.pexels.com/photos/13090030/pexels-photo-13090030.jpeg",
+    image: "https://images.pexels.com/photos/7194915/pexels-photo-7194915.jpeg",
     description: "Fruta dulce con sabor a caramelo, muy utilizada en postres y helados chilenos.",
     color: "#D4A017"
   },
@@ -135,7 +135,7 @@ export const fruits = [
   {
     id: 20,
     name: "Tuna",
-    image: "https://images.pexels.com/photos/14599041/pexels-photo-14599041.jpeg",
+    image: "https://images.pexels.com/photos/5945755/pexels-photo-5945755.jpeg",
     description: "Fruta de cactus, dulce y refrescante. Típica del norte de Chile.",
     color: "#FF69B4"
   }
