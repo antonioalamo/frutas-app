@@ -2,7 +2,7 @@ export const fruits = [
   {
     id: 1,
     name: "Chirimoya",
-    image: "https://images.unsplash.com/photo-1622205313162-be1d5712a43f",
+    image: "https://images.unsplash.com/photo-1613729789476-b7e3fb891b91",
     description: "Conocida como la 'reina de las frutas'. Dulce y cremosa, ideal para postres y helados.",
     color: "#90B44B"
   },
@@ -16,7 +16,7 @@ export const fruits = [
   {
     id: 3,
     name: "Lúcuma",
-    image: "https://images.unsplash.com/photo-1622544446913-13b3843468a1",
+    image: "https://images.pexels.com/photos/13090030/pexels-photo-13090030.jpeg",
     description: "Fruta dulce con sabor a caramelo, muy utilizada en postres y helados chilenos.",
     color: "#D4A017"
   },
@@ -65,7 +65,7 @@ export const fruits = [
   {
     id: 10,
     name: "Ciruela",
-    image: "https://images.unsplash.com/photo-1603408209093-cd3c9a667926",
+    image: "https://images.unsplash.com/photo-1596363505729-4190a9506133",
     description: "Fruta jugosa disponible en diferentes variedades. Perfecta como snack o en mermeladas.",
     color: "#8B4513"
   },
@@ -79,7 +79,7 @@ export const fruits = [
   {
     id: 12,
     name: "Membrillo",
-    image: "https://images.unsplash.com/photo-1602769515559-e15133a7a33f",
+    image: "https://images.pexels.com/photos/4412924/pexels-photo-4412924.jpeg",
     description: "Tradicional fruta chilena, principalmente usada para dulces y mermeladas.",
     color: "#FFD700"
   },
@@ -93,7 +93,7 @@ export const fruits = [
   {
     id: 14,
     name: "Melón Tuna",
-    image: "https://images.unsplash.com/photo-1571575173700-afb9492e6a50",
+    image: "https://images.unsplash.com/photo-1571061706944-ffa3f35f0824",
     description: "Dulce y aromático, típico del verano chileno. Perfecto para refrescarse.",
     color: "#FFA500"
   },
@@ -135,7 +135,7 @@ export const fruits = [
   {
     id: 20,
     name: "Tuna",
-    image: "https://images.unsplash.com/photo-1600234021826-d02ae51a2258",
+    image: "https://images.pexels.com/photos/14599041/pexels-photo-14599041.jpeg",
     description: "Fruta de cactus, dulce y refrescante. Típica del norte de Chile.",
     color: "#FF69B4"
   }
