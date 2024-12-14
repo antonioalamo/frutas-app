@@ -2,7 +2,7 @@ export const fruits = [
   {
     id: 1,
     name: "Chirimoya",
-    image: "https://images.pexels.com/photos/8972581/pexels-photo-8972581.jpeg",
+    image: "/images/chirimoya.png",
     description: "Conocida como la 'reina de las frutas'. Dulce y cremosa, ideal para postres y helados.",
     color: "#90B44B"
   },
@@ -16,7 +16,7 @@ export const fruits = [
   {
     id: 3,
     name: "Lúcuma",
-    image: "https://images.pexels.com/photos/7194915/pexels-photo-7194915.jpeg",
+    image: "/images/lucuma.jpg",
     description: "Fruta dulce con sabor a caramelo, muy utilizada en postres y helados chilenos.",
     color: "#D4A017"
   },
@@ -93,7 +93,7 @@ export const fruits = [
   {
     id: 14,
     name: "Melón Tuna",
-    image: "https://images.unsplash.com/photo-1571061706944-ffa3f35f0824",
+    image: "/images/melontuna.jpg",
     description: "Dulce y aromático, típico del verano chileno. Perfecto para refrescarse.",
     color: "#FFA500"
   },
@@ -139,4 +139,4 @@ export const fruits = [
     description: "Fruta de cactus, dulce y refrescante. Típica del norte de Chile.",
     color: "#FF69B4"
   }
-];
+]; 
